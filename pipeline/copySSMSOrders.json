@@ -1,5 +1,5 @@
 {
-	"name": "copySQLServerData",
+	"name": "copySSMSOrders",
 	"properties": {
 		"description": "Copy data from Restaurant.Orders table in Local SQL Server",
 		"activities": [
