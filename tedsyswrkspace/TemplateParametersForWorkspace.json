@@ -5,8 +5,17 @@
 		"workspaceName": {
 			"value": "tedsyswrkspace"
 		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=True;Data Source=DESKTOP-QISLC9D;Initial Catalog=model"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
 		"tedsyswrkspace-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:tedsyswrkspace.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "DESKTOP-QISLC9D\\lenovo"
 		},
 		"tedsyswrkspace-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://asateddataplatform.dfs.core.windows.net"
